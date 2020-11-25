@@ -11,6 +11,8 @@
 		EE79446A256D76D50046363E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE794469256D76D50046363E /* Assets.xcassets */; };
 		EE79446D256D76D50046363E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE79446B256D76D50046363E /* MainMenu.xib */; };
 		EE794470256D76D50046363E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE79446F256D76D50046363E /* main.m */; };
+		EE79447B256D79220046363E /* SpriteGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE79447A256D79220046363E /* SpriteGridView.m */; };
+		EE79447E256D7B330046363E /* SpriteGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = EE79447D256D7B330046363E /* SpriteGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		EE79446E256D76D50046363E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE79446F256D76D50046363E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE794471256D76D50046363E /* gzvgaSpriteEd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gzvgaSpriteEd.entitlements; sourceTree = "<group>"; };
+		EE794479256D79220046363E /* SpriteGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteGridView.h; sourceTree = "<group>"; };
+		EE79447A256D79220046363E /* SpriteGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteGridView.m; sourceTree = "<group>"; };
+		EE79447C256D7B330046363E /* SpriteGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteGrid.h; sourceTree = "<group>"; };
+		EE79447D256D7B330046363E /* SpriteGrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 				EE79446E256D76D50046363E /* Info.plist */,
 				EE79446F256D76D50046363E /* main.m */,
 				EE794471256D76D50046363E /* gzvgaSpriteEd.entitlements */,
+				EE794479256D79220046363E /* SpriteGridView.h */,
+				EE79447A256D79220046363E /* SpriteGridView.m */,
+				EE79447C256D7B330046363E /* SpriteGrid.h */,
+				EE79447D256D7B330046363E /* SpriteGrid.m */,
 			);
 			path = gzvgaSpriteEd;
 			sourceTree = "<group>";
@@ -134,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE79447E256D7B330046363E /* SpriteGrid.m in Sources */,
 				EE794470256D76D50046363E /* main.m in Sources */,
+				EE79447B256D79220046363E /* SpriteGridView.m in Sources */,
 				EE794468256D76D30046363E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +280,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = gzvgaSpriteEd/gzvgaSpriteEd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = gzvgaSpriteEd/Info.plist;
@@ -285,7 +296,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = gzvgaSpriteEd/gzvgaSpriteEd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = gzvgaSpriteEd/Info.plist;
